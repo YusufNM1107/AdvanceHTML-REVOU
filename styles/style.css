@@ -1,0 +1,120 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+/* Body */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DFD0B8;
+    color: #3C5B6F;
+}
+
+
+h1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+/* Navbar */
+nav {
+    display: flex;
+    background-color: #3C5B6F;
+    justify-content: space-around;
+    padding: 20px 0;
+    color: #DFD0B8;
+    height: 50px;
+    align-items: center;
+}
+
+nav .logo {
+    font-family: 'Nova Square', sans-serif;
+    letter-spacing: 3px;
+    margin-right:0 ;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+    font-size: 1em;
+    margin: 5px;
+}
+
+nav ul li a:hover {
+    color: rgb(182, 182, 182);
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+/* Home */
+
+.home {
+    padding: 40px;
+    display: flex;
+}
+
+.home h1 {
+    padding-right: 40px;
+    font-size: 60px;
+}
+
+.img-home {
+    position: relative ;
+    /* right: -200px; */
+    width: 40%;
+    /* margin-bottom: 40px; */
+}
+
+/* Kepo */
+
+.saran-section {
+    padding: 50px;
+
+}
+
+.form-saran {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 30%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
